@@ -21,8 +21,19 @@ p{
     padding-left: 3%;
     margin-left: 5%;
 }
+.half-width-1{
+    width: 40%;
+    float: left;
+    padding-left: 3%;
+    margin-left: 5%;
+}
+.half-width-1 img{
+    width: 60%;
+    padding-left: 100px;
+    
+}
 .half-width img{
-    width: 65%;
+    width: 60%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -50,10 +61,11 @@ section{
 }
 .single-experience{
     background-color: white;
-    box-shadow: 10px 10px 40px;
-    height: 60%;
-    
-    
+    box-shadow: 5px 5px 20px;
+    height: 60%;   
+}
+#exp{
+    padding: 20px;
 }
 #exp:hover{
     color: coral;
